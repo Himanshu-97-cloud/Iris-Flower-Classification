@@ -1,9 +1,3 @@
-
----
-
-## Iris Classification README
-
-```md
 # Iris Flower Classification Using KNN
 
 ## Description
