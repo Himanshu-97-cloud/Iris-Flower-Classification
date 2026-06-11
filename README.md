@@ -1,37 +1,31 @@
+
+---
+
+## Iris Classification README
+
+```md
 # Iris Flower Classification Using KNN
 
 ## Description
 
-This project uses the Iris Dataset and K-Nearest Neighbors (KNN) algorithm to classify flowers into different species.
+A machine learning project that classifies Iris flowers using the KNN algorithm.
 
-The model predicts:
+## Output Screenshot
 
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
+![Model Output](screenshot.png)
 
-based on flower measurements.
+## Features
 
-## Technologies Used
-
-- Python
-- Scikit-Learn
-
-## Machine Learning Workflow
-
-1. Load Iris Dataset
-2. Feature Scaling using StandardScaler
-3. Train-Test Split
-4. Train KNN Model
-5. Make Predictions
-6. Evaluate using:
-   - Accuracy
-   - Confusion Matrix
-   - F1 Score
+- Iris Dataset
+- StandardScaler
+- Train-Test Split
+- KNN Classification
+- Accuracy Score
+- Confusion Matrix
+- F1 Score
 
 ## How to Run
 
-Install dependencies:
-
 ```bash
 pip install -r requirements.txt
+python iris_classifier.py
